@@ -1,0 +1,21 @@
+/* @override 
+	http://localhost:8888/engage-leadership/wp-content/themes/liTwenty/style.css?* */
+
+
+
+
+.outline-_offline #g-header{
+	height: 100vh;
+	padding-top: 25vh;
+}
+
+div#custom-6768-particle.g-content.g-particle h1 {
+	font: 3em Raleway, Roboto, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+div#custom-6768-particle.g-content.g-particle p {
+	font-size: 1.5em;
+	line-height: 1.25em;
+}

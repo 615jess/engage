@@ -1,0 +1,21 @@
+meta: {  }
+head_bottom: ''
+atoms:
+  -
+    title: WOW.js
+    type: wow-js
+    attributes:
+      enabled: true
+      offset: '200'
+      mobile: 'true'
+    id: wow-js-9378
+  -
+    id: headroom-4614
+    type: headroom
+    title: Headroom.js
+    attributes:
+      enabled: '1'
+      cssselector: '#g-navigation'
+      offset: ''
+      animation: slide
+      mobile: disable

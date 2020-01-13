@@ -1,0 +1,32 @@
+preset: preset5
+base:
+  text-color: '#2a363b'
+accent:
+  color-1: '#a8a7a7'
+  color-2: '#474747'
+link:
+  regular: '#a8a7a7'
+  hover: '#2a363b'
+navigation:
+  background: '#474747'
+header:
+  background: '#474747'
+  background-image: 'gantry-media://header/photo-of-group-of-men-wearing-assorted-scarves-holding-667200.jpg'
+  background-overlay: enabled
+intro:
+  text-color: '#2a363b'
+features:
+  text-color: '#2a363b'
+utility:
+  background: '#474747'
+above:
+  text-color: '#2a363b'
+testimonials:
+  background: '#a8a7a7'
+expanded:
+  text-color: '#2a363b'
+footer:
+  background: '#474747'
+offcanvas:
+  background: '#474747'
+  toggle-color: '#a8a7a7'

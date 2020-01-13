@@ -1,0 +1,194 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: engage1
+  timestamp: 1577386386
+layout:
+  /navigation/:
+    -
+      - system-messages-7972
+    -
+      - 'logo-9608 30'
+      - 'menu-6409 52'
+      - 'social-3171 18'
+  /header/:
+    -
+      - custom-5859
+  /intro/: {  }
+  /features/: {  }
+  /utility/: {  }
+  /above/: {  }
+  /testimonials/: {  }
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'aside 25':
+          -
+            - position-position-4734
+      -
+        'mainbar 50':
+          -
+            - system-content-1587
+      -
+        'sidebar 25':
+          -
+            - position-position-3949
+  /mainbottom/:
+    -
+      - custom-3338
+  /footer/:
+    -
+      - 'horizontalmenu-1728 76'
+      - 'custom-8919 24'
+    -
+      - custom-8980
+    -
+      - 'branding-4525 80'
+      - 'totop-8670 20'
+  /offcanvas/:
+    -
+      - mobile-menu-5697
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  header:
+    attributes:
+      boxed: ''
+      class: short
+      variations: ''
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  aside:
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: ''
+  mainbottom:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      variations: ''
+  footer:
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  offcanvas:
+    attributes:
+      boxed: ''
+content:
+  logo-9608:
+    title: 'Logo / Image'
+    attributes:
+      class: g-logo
+  menu-6409:
+    attributes:
+      menu: main-menu
+    block:
+      class: top-padding-med
+      variations: align-right
+  social-3171:
+    attributes:
+      css:
+        class: ''
+      items:
+        -
+          icon: 'fa fa-instagram fa-fw'
+          text: ''
+          title: ''
+          link: 'https://www.instagram.com/engageleadershiptravel'
+          name: Instagram
+    block:
+      class: 'g-social-header top-padding-med'
+  custom-5859:
+    title: 'Custom HTML'
+    attributes:
+      html: .
+  position-position-4734:
+    title: Aside
+    attributes:
+      key: aside
+  position-position-3949:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  custom-3338:
+    title: 'Custom HTML'
+    attributes:
+      html: '[wpforms id="49" title="true" description="false"]'
+      filter: '1'
+    block:
+      id: subscribe
+      class: boxed
+  horizontalmenu-1728:
+    title: 'Horizontal Menu'
+    attributes:
+      target: _parent
+      items:
+        -
+          text: 'About Us'
+          link: the-wilson-family
+          name: 'About Us'
+        -
+          text: Inquire
+          link: inquire
+          name: Inquire
+    block:
+      class: visible-desktop
+  custom-8919:
+    title: 'Custom HTML'
+    attributes:
+      html: "<a class=\"f-logo\" href=\"home\"><img src=\"gantry-media://header/engage_l_temp@2x.png\"/></a>\n<a href=\"tel:6156042961\">615 604 2961</a><br><a href=\"mailto:info@engage-leadership.org\">info@engageleadership.org</a>"
+    block:
+      class: g-logo
+      variations: center
+  custom-8980:
+    title: 'Custom HTML'
+    attributes:
+      html: '<hr>'
+    block:
+      variations: 'nomarginall nopaddingall'
+  totop-8670:
+    title: 'To Top'

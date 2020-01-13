@@ -1,0 +1,82 @@
+name: home_1
+timestamp: 1578946670
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: engage1
+  timestamp: 1577377915
+positions:
+  aside: Aside
+  sidebar: Sidebar
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  mainbottom: Mainbottom
+  header: Header
+  aside: Aside
+  sidebar: Sidebar
+  mainbar: Mainbar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  custom:
+    custom-9248: 'Custom HTML'
+    custom-1415: Subscribe
+    custom-8741: 'Custom HTML'
+    custom-9345: 'Custom HTML'
+  owlcarousel:
+    owlcarousel-4620: 'Meet the Wilsons'
+  j_contentcubes:
+    j_contentcubes-7922: 'Jess - Content Cubes'
+  messages:
+    system-messages-8334: 'System Messages'
+  logo:
+    logo-7826: 'Logo / Image'
+  menu:
+    menu-9801: Menu
+  social:
+    social-5783: Social
+  position:
+    position-position-7285: Aside
+    position-position-5690: Sidebar
+  content:
+    system-content-6309: 'Page Content'
+  horizontalmenu:
+    horizontalmenu-2564: 'Horizontal Menu'
+  branding:
+    branding-6921: Branding
+  totop:
+    totop-2589: 'To Top'
+  mobile-menu:
+    mobile-menu-4351: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    intro: intro
+    features: features
+    utility: utility
+    above: above
+    expanded: expanded
+    aside: aside
+    mainbar: mainbar
+    sidebar: sidebar
+    footer: footer
+    offcanvas: offcanvas
+    system-messages-8334: system-messages-7972
+    logo-7826: logo-9608
+    menu-9801: menu-6409
+    social-5783: social-3171
+    position-position-7285: position-position-4734
+    system-content-6309: system-content-1587
+    position-position-5690: position-position-3949
+    horizontalmenu-2564: horizontalmenu-1728
+    custom-8741: custom-8919
+    custom-9345: custom-8980
+    branding-6921: branding-4525
+    totop-2589: totop-8670
+    mobile-menu-4351: mobile-menu-5697

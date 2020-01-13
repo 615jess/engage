@@ -1,0 +1,147 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1576273728
+layout:
+  /navigation/:
+    -
+      - system-messages-7972
+    -
+      - 'logo-9608 15'
+      - 'menu-6409 65'
+      - 'social-3171 20'
+  /header/:
+    -
+      - logo-5138
+    -
+      - custom-6768
+  /intro/: {  }
+  /features/: {  }
+  /utility/: {  }
+  /above/: {  }
+  /testimonials/: {  }
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'aside 25':
+          -
+            - position-position-4734
+      -
+        'mainbar 50':
+          -
+            - system-content-1587
+      -
+        'sidebar 25': {  }
+  /footer/:
+    -
+      - logo-9571
+    -
+      - copyright-1736
+  /offcanvas/:
+    -
+      - mobile-menu-5697
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: 'hidden-tablet hidden-phone hidden-desktop'
+      variations: ''
+  header:
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  aside:
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  offcanvas:
+    attributes:
+      boxed: ''
+content:
+  logo-9608:
+    title: 'Logo / Image'
+  menu-6409:
+    attributes:
+      menu: main-menu
+  social-3171:
+    block:
+      class: g-social-header
+  logo-5138:
+    title: 'Logo / Image'
+    attributes:
+      height: 150px
+      svg: ''
+      class: center
+    block:
+      variations: center
+  custom-6768:
+    title: 'Custom HTML'
+    attributes:
+      html: "<h1> Coming Soon...</h1>\n<p>ENGAGE a Country and its People Through a Once In a Lifetime Travel Experience</p>"
+    block:
+      variations: center
+  position-position-4734:
+    title: Aside
+    attributes:
+      key: aside
+  system-content-1587:
+    block:
+      variations: center
+  logo-9571:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://header/engage_l_temp@0.25x.png'
+      height: ''
+      class: g-logo-helium
+    block:
+      class: align-center
+      variations: center
+  copyright-1736:
+    block:
+      variations: center

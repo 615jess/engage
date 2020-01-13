@@ -1,0 +1,194 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: engage1
+  timestamp: 1577377915
+layout:
+  navigation: {  }
+  /header/:
+    -
+      - custom-9248
+  intro: {  }
+  features: {  }
+  utility: {  }
+  above: {  }
+  /testimonials/: {  }
+  expanded: {  }
+  /container-main/:
+    -
+      -
+        'aside 25': {  }
+      -
+        'mainbar 50': {  }
+      -
+        'sidebar 25': {  }
+  /mainbottom/:
+    -
+      - owlcarousel-4620
+    -
+      - j_contentcubes-7922
+    -
+      - custom-1415
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  intro:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  features:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  utility:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  expanded:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  aside:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: ''
+  mainbottom:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      variations: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+content:
+  custom-9248:
+    title: 'Custom HTML'
+    attributes:
+      html: .
+  owlcarousel-4620:
+    title: 'Meet the Wilsons'
+    attributes:
+      items:
+        -
+          class: ''
+          image: 'gantry-media://2020/01/wilsons.jpg'
+          title: 'Meet your Hosts'
+          desc: 'The Wilson Family'
+          link: /the-wilson-family
+          linktext: 'Get to Know Them'
+          buttonclass: ''
+          disable: '0'
+          name: 'Meet the Wilsons'
+    block:
+      variations: 'nopaddingall nomarginall'
+  j_contentcubes-7922:
+    title: 'Jess - Content Cubes'
+    attributes:
+      items:
+        -
+          image: 'gantry-media://2019/12/53459144_1054775794705021_7677325462611165184_o-768x511.jpg'
+          imageposition: left
+          label: ''
+          title: 'How Do We Make Your Experience Unique?'
+          moretext: '<ul> <li>traveling WordPress</li> <li>theme expedition</li> <li>Traveler</li> <li>wanderlust</li> <li>Design Travel excursion traveling theme</li> <li>colorful expedition.</li>             </ul>'
+          link: ''
+          linktext: '&rarr;'
+          buttonclass: ''
+          buttontarget: _self
+          name: Unique
+    block:
+      class: boxed
+      variations: center
+  custom-1415:
+    title: Subscribe
+    attributes:
+      html: '[wpforms id="49" title="true" description="false"]'
+      twig: '0'
+      filter: '1'
+    block:
+      id: subscribe
+      class: boxed
+      variations: center

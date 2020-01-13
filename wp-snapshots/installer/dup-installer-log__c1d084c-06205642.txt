@@ -1,0 +1,388 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:17:42
+* VERSION: 1.3.24
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.1.12                                |7.1.12
+OS__________________: Darwin                                |Darwin
+CREATED_____________: 2020-01-06 20:56:42
+WP VERSION__________: 5.3.2
+DUP VERSION_________: 1.3.24
+DB__________________: 5.6.38
+DB TABLES___________: 13
+DB ROWS_____________: 389
+DB FILE SIZE________: 279.97KB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.1.12 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.12 mod_ssl/2.2.34 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0
+DOC ROOT____________: "/Applications/MAMP/htdocs/engage_leadership"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/engage_leadership/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20191217_engageleadership_c1d084c733cc4e5f6085_20200106205642_archive.zip"
+SIZE________________: 87.28MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/Applications/MAMP/htdocs/engage_leadership/20191217_engageleadership_c1d084c733cc4e5f6085_20200106205642_archive.zip' -d '/Applications/MAMP/htdocs/engage_leadership' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 08:17:50 - RUNTIME: 7.8919 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:18:07
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.38 -- Build Server: 5.6.38
+FILE SIZE:	dup-database__c1d084c-06205642.sql (211.17KB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Applications/MAMP/htdocs/engage_leadership/dup-installer/dup-installer-data__c1d084c-06205642.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	13
+RENAMED TABLES:	0
+QUERIES RAN:	405
+
+wpnv_commentmeta: (0)
+wpnv_comments: (1)
+wpnv_duplicator_packages: (0)
+wpnv_links: (0)
+wpnv_options: (142)
+wpnv_postmeta: (107)
+wpnv_posts: (79)
+wpnv_term_relationships: (5)
+wpnv_term_taxonomy: (2)
+wpnv_termmeta: (0)
+wpnv_terms: (2)
+wpnv_usermeta: (43)
+wpnv_users: (2)
+Removed '6' cache/transient rows
+
+INSERT DATA RUNTIME: 1.4157 sec.
+STEP-2 COMPLETE @ 08:18:09 - RUNTIME: 1.4204 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:18:14
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Engage Leadership"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/Applications/MAMP/htdocs/engage-leadership/"
+path_new______________: "/Applications/MAMP/htdocs/engage_leadership/"
+siteurl_______________: "http://localhost:8888/engage_leadership"
+url_old_______________: "http://localhost:8888/engage-leadership"
+url_new_______________: "http://localhost:8888/engage_leadership"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "engage-l"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wpnv_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpnv_comments"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/engage-leadership/" ====> "/Applications/MAMP/htdocs/engage_leadership/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/engage-leadership\/" => "\/Applications\/MAMP\/htdocs\/engage_leadership\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fengage-leadership%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\engage-leadership" =====> "/Applications/MAMP/htdocs/engage_leadership"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\engage-leadership" => "\/Applications\/MAMP\/htdocs\/engage_leadership"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cengage-leadership" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership"
+	SEARCH  7:"//localhost:8888/engage-leadership" ==============> "//localhost:8888/engage_leadership"
+	SEARCH  8:"\/\/localhost:8888\/engage-leadership" ===========> "\/\/localhost:8888\/engage_leadership"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fengage-leadership" ======> "%2F%2Flocalhost%3A8888%2Fengage_leadership"
+	SEARCH 10:"https://localhost:8888/engage_leadership" ========> "http://localhost:8888/engage_leadership"
+	SEARCH 11:"https:\/\/localhost:8888\/engage_leadership" =====> "http:\/\/localhost:8888\/engage_leadership"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fengage_leadership" => "http%3A%2F%2Flocalhost%3A8888%2Fengage_leadership"
+
+EVALUATE TABLE: "wpnv_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpnv_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpnv_options"____________________________________[ROWS:   142][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/engage-leadership/" ====> "/Applications/MAMP/htdocs/engage_leadership/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/engage-leadership\/" => "\/Applications\/MAMP\/htdocs\/engage_leadership\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fengage-leadership%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\engage-leadership" =====> "/Applications/MAMP/htdocs/engage_leadership"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\engage-leadership" => "\/Applications\/MAMP\/htdocs\/engage_leadership"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cengage-leadership" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership"
+	SEARCH  7:"//localhost:8888/engage-leadership" ==============> "//localhost:8888/engage_leadership"
+	SEARCH  8:"\/\/localhost:8888\/engage-leadership" ===========> "\/\/localhost:8888\/engage_leadership"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fengage-leadership" ======> "%2F%2Flocalhost%3A8888%2Fengage_leadership"
+	SEARCH 10:"https://localhost:8888/engage_leadership" ========> "http://localhost:8888/engage_leadership"
+	SEARCH 11:"https:\/\/localhost:8888\/engage_leadership" =====> "http:\/\/localhost:8888\/engage_leadership"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fengage_leadership" => "http%3A%2F%2Flocalhost%3A8888%2Fengage_leadership"
+
+EVALUATE TABLE: "wpnv_postmeta"___________________________________[ROWS:   107][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/engage-leadership/" ====> "/Applications/MAMP/htdocs/engage_leadership/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/engage-leadership\/" => "\/Applications\/MAMP\/htdocs\/engage_leadership\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fengage-leadership%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\engage-leadership" =====> "/Applications/MAMP/htdocs/engage_leadership"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\engage-leadership" => "\/Applications\/MAMP\/htdocs\/engage_leadership"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cengage-leadership" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership"
+	SEARCH  7:"//localhost:8888/engage-leadership" ==============> "//localhost:8888/engage_leadership"
+	SEARCH  8:"\/\/localhost:8888\/engage-leadership" ===========> "\/\/localhost:8888\/engage_leadership"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fengage-leadership" ======> "%2F%2Flocalhost%3A8888%2Fengage_leadership"
+	SEARCH 10:"https://localhost:8888/engage_leadership" ========> "http://localhost:8888/engage_leadership"
+	SEARCH 11:"https:\/\/localhost:8888\/engage_leadership" =====> "http:\/\/localhost:8888\/engage_leadership"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fengage_leadership" => "http%3A%2F%2Flocalhost%3A8888%2Fengage_leadership"
+
+EVALUATE TABLE: "wpnv_posts"______________________________________[ROWS:    79][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/engage-leadership/" ====> "/Applications/MAMP/htdocs/engage_leadership/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/engage-leadership\/" => "\/Applications\/MAMP\/htdocs\/engage_leadership\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fengage-leadership%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\engage-leadership" =====> "/Applications/MAMP/htdocs/engage_leadership"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\engage-leadership" => "\/Applications\/MAMP\/htdocs\/engage_leadership"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cengage-leadership" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership"
+	SEARCH  7:"//localhost:8888/engage-leadership" ==============> "//localhost:8888/engage_leadership"
+	SEARCH  8:"\/\/localhost:8888\/engage-leadership" ===========> "\/\/localhost:8888\/engage_leadership"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fengage-leadership" ======> "%2F%2Flocalhost%3A8888%2Fengage_leadership"
+	SEARCH 10:"https://localhost:8888/engage_leadership" ========> "http://localhost:8888/engage_leadership"
+	SEARCH 11:"https:\/\/localhost:8888\/engage_leadership" =====> "http:\/\/localhost:8888\/engage_leadership"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fengage_leadership" => "http%3A%2F%2Flocalhost%3A8888%2Fengage_leadership"
+
+EVALUATE TABLE: "wpnv_term_relationships"_________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/engage-leadership/" ====> "/Applications/MAMP/htdocs/engage_leadership/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/engage-leadership\/" => "\/Applications\/MAMP\/htdocs\/engage_leadership\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fengage-leadership%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\engage-leadership" =====> "/Applications/MAMP/htdocs/engage_leadership"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\engage-leadership" => "\/Applications\/MAMP\/htdocs\/engage_leadership"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cengage-leadership" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership"
+	SEARCH  7:"//localhost:8888/engage-leadership" ==============> "//localhost:8888/engage_leadership"
+	SEARCH  8:"\/\/localhost:8888\/engage-leadership" ===========> "\/\/localhost:8888\/engage_leadership"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fengage-leadership" ======> "%2F%2Flocalhost%3A8888%2Fengage_leadership"
+	SEARCH 10:"https://localhost:8888/engage_leadership" ========> "http://localhost:8888/engage_leadership"
+	SEARCH 11:"https:\/\/localhost:8888\/engage_leadership" =====> "http:\/\/localhost:8888\/engage_leadership"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fengage_leadership" => "http%3A%2F%2Flocalhost%3A8888%2Fengage_leadership"
+
+EVALUATE TABLE: "wpnv_term_taxonomy"______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/engage-leadership/" ====> "/Applications/MAMP/htdocs/engage_leadership/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/engage-leadership\/" => "\/Applications\/MAMP\/htdocs\/engage_leadership\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fengage-leadership%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\engage-leadership" =====> "/Applications/MAMP/htdocs/engage_leadership"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\engage-leadership" => "\/Applications\/MAMP\/htdocs\/engage_leadership"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cengage-leadership" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership"
+	SEARCH  7:"//localhost:8888/engage-leadership" ==============> "//localhost:8888/engage_leadership"
+	SEARCH  8:"\/\/localhost:8888\/engage-leadership" ===========> "\/\/localhost:8888\/engage_leadership"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fengage-leadership" ======> "%2F%2Flocalhost%3A8888%2Fengage_leadership"
+	SEARCH 10:"https://localhost:8888/engage_leadership" ========> "http://localhost:8888/engage_leadership"
+	SEARCH 11:"https:\/\/localhost:8888\/engage_leadership" =====> "http:\/\/localhost:8888\/engage_leadership"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fengage_leadership" => "http%3A%2F%2Flocalhost%3A8888%2Fengage_leadership"
+
+EVALUATE TABLE: "wpnv_termmeta"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpnv_terms"______________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/engage-leadership/" ====> "/Applications/MAMP/htdocs/engage_leadership/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/engage-leadership\/" => "\/Applications\/MAMP\/htdocs\/engage_leadership\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fengage-leadership%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\engage-leadership" =====> "/Applications/MAMP/htdocs/engage_leadership"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\engage-leadership" => "\/Applications\/MAMP\/htdocs\/engage_leadership"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cengage-leadership" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership"
+	SEARCH  7:"//localhost:8888/engage-leadership" ==============> "//localhost:8888/engage_leadership"
+	SEARCH  8:"\/\/localhost:8888\/engage-leadership" ===========> "\/\/localhost:8888\/engage_leadership"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fengage-leadership" ======> "%2F%2Flocalhost%3A8888%2Fengage_leadership"
+	SEARCH 10:"https://localhost:8888/engage_leadership" ========> "http://localhost:8888/engage_leadership"
+	SEARCH 11:"https:\/\/localhost:8888\/engage_leadership" =====> "http:\/\/localhost:8888\/engage_leadership"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fengage_leadership" => "http%3A%2F%2Flocalhost%3A8888%2Fengage_leadership"
+
+EVALUATE TABLE: "wpnv_usermeta"___________________________________[ROWS:    43][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/engage-leadership/" ====> "/Applications/MAMP/htdocs/engage_leadership/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/engage-leadership\/" => "\/Applications\/MAMP\/htdocs\/engage_leadership\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fengage-leadership%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\engage-leadership" =====> "/Applications/MAMP/htdocs/engage_leadership"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\engage-leadership" => "\/Applications\/MAMP\/htdocs\/engage_leadership"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cengage-leadership" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership"
+	SEARCH  7:"//localhost:8888/engage-leadership" ==============> "//localhost:8888/engage_leadership"
+	SEARCH  8:"\/\/localhost:8888\/engage-leadership" ===========> "\/\/localhost:8888\/engage_leadership"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fengage-leadership" ======> "%2F%2Flocalhost%3A8888%2Fengage_leadership"
+	SEARCH 10:"https://localhost:8888/engage_leadership" ========> "http://localhost:8888/engage_leadership"
+	SEARCH 11:"https:\/\/localhost:8888\/engage_leadership" =====> "http:\/\/localhost:8888\/engage_leadership"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fengage_leadership" => "http%3A%2F%2Flocalhost%3A8888%2Fengage_leadership"
+
+EVALUATE TABLE: "wpnv_users"______________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/engage-leadership/" ====> "/Applications/MAMP/htdocs/engage_leadership/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/engage-leadership\/" => "\/Applications\/MAMP\/htdocs\/engage_leadership\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fengage-leadership%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\engage-leadership" =====> "/Applications/MAMP/htdocs/engage_leadership"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\engage-leadership" => "\/Applications\/MAMP\/htdocs\/engage_leadership"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cengage-leadership" => "%2FApplications%2FMAMP%2Fhtdocs%2Fengage_leadership"
+	SEARCH  7:"//localhost:8888/engage-leadership" ==============> "//localhost:8888/engage_leadership"
+	SEARCH  8:"\/\/localhost:8888\/engage-leadership" ===========> "\/\/localhost:8888\/engage_leadership"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fengage-leadership" ======> "%2F%2Flocalhost%3A8888%2Fengage_leadership"
+	SEARCH 10:"https://localhost:8888/engage_leadership" ========> "http://localhost:8888/engage_leadership"
+	SEARCH 11:"https:\/\/localhost:8888\/engage_leadership" =====> "http:\/\/localhost:8888\/engage_leadership"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fengage_leadership" => "http%3A%2F%2Flocalhost%3A8888%2Fengage_leadership"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:383 	|	 Cells:3055 
+UPDATED:	Tables:2 	|	 Rows:84 	|	 Cells:110 
+ERRORS:		0 
+RUNTIME:	0.121100 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""engage-l""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:18:14 - RUNTIME: 0.2063 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
